@@ -1,0 +1,20 @@
+.container,
+.container-fluid {
+    min-height: 100px;
+    background-color: red;
+}
+
+[class^="col"] {
+    height: 75px;
+    margin-top: 10px;
+    background-color: orange;
+}
+
+[class^="col"] > div {
+    height: 100%;
+    background-color: green;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
